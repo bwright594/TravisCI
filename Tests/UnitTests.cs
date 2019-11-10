@@ -126,12 +126,6 @@ namespace TravisCILab
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, null));
         }
 
-        [Test]
-        public void Fail()
-        {
-            Assert.Fail();
-        }
-
         // Implement 3 tests per operation, following a similar pattern as above
     }
 }
